@@ -27,3 +27,18 @@ div{
     background-color: #A5AED5;
     border: 1px solid #0C2427;
 }
+
+#menu{
+    position: fixed;
+    width: 9%;
+    height: auto;
+    float: left;
+    padding-left: 0;
+    min-width: 9%;
+}
+#menu li:hover{
+    color: #fff;
+}
+#menu a{
+    text-decoration: none;
+}
