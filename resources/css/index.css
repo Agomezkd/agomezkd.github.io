@@ -50,5 +50,13 @@ h1,h2{
 }
 .flecha img{
     width: 100%;
-    height: 100%;
+}
+
+@media only screen and (max-width: 500px){
+    #menu{
+        display: none;
+    }
+    .flecha img{
+        display: none;
+    }
 }
